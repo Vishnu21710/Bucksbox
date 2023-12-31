@@ -5,6 +5,7 @@ import Brand from './ui/Brand/Brand'
 import Solution from './ui/Business/Solution'
 import Carousel from './ui/Carousel/Carousel'
 import Loans from './ui/Loans/Loans'
+import Analytics from './ui/Merchant/Analytics'
 import Collection from './ui/Merchant/Collection'
 import MSolution from './ui/Merchant/MSolution'
 import Registration from './ui/Merchant/Registration'
@@ -21,6 +22,7 @@ export default function Home() {
         <Payments />
         {/* <Bills/> */}
         <Collection />
+        <Analytics/>
         <Registration/>
         <Loans />
         <Solution />

@@ -29,10 +29,10 @@ const features = [
 const Registration = (props: Props) => {
   return (
     <div className="overflow-hidden bg-purple-50 my-10 py-10 ">
-      <div className="mx-auto  px-6 lg:px-8">
+      <div className="mx-auto  lg:px-8">
         <div className="mx-auto grid  grid-cols-1 place-items-center  gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0  lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4 ">
-            <div className="">
+            <div className="w-full ">
               <h2 className="text-base font-semibold leading-7 text-green-600 max-sm:text-center">Merchant onboarding</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 xl:text-6xl lg:text-4xl max-sm:text-center">Registration Redefined: <span className='text-purple-600'>Easy, Quick</span>, and User-Centric</p>
              

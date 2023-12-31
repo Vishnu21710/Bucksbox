@@ -4,15 +4,15 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <footer className="bg-white border-t-2 border-indigo-700">
+    <footer className="bg-purple-600">
   <div className="mx-auto  space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
-        <div className="text-teal-600 ">
+        <div className="text-white ">
           <img src="final_logo2.png" alt="" className='w-[70px] h-[70px]' />
         </div>
 
-        <p className="mt-4 max-w-xs text-gray-500">
+        <p className="mt-4 max-w-xs text-white">
          Our vision is to enrich India through digital commerce and financial services, innovative fintech culture
         </p>
 
@@ -22,7 +22,7 @@ const Footer = (props: Props) => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
+              className="text-white transition hover:opacity-75"
             >
               <span className="sr-only">Facebook</span>
 
@@ -41,7 +41,7 @@ const Footer = (props: Props) => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
+              className="text-white transition hover:opacity-75"
             >
               <span className="sr-only">Instagram</span>
 
@@ -60,7 +60,7 @@ const Footer = (props: Props) => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
+              className="text-white transition hover:opacity-75"
             >
               <span className="sr-only">Twitter</span>
 
@@ -77,7 +77,7 @@ const Footer = (props: Props) => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
+              className="text-white transition hover:opacity-75"
             >
               <span className="sr-only">GitHub</span>
 
@@ -91,111 +91,99 @@ const Footer = (props: Props) => {
             </a>
           </li>
 
-          <li>
-            <a
-              href="/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-gray-700 transition hover:opacity-75"
-            >
-              <span className="sr-only">Dribbble</span>
-
-              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fillRule="evenodd"
-                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
-          </li>
+          
         </ul>
       </div>
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
         <div>
-          <p className="font-medium text-gray-900">Services</p>
+          <p className="font-medium text-white">Services</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> POS </a>
+              <a href="#" className="text-white transition hover:opacity-75"> POS </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Business Protection Plans </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Business Protection Plans </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Payment Solutions </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Payment Solutions </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Commerce Solutions </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Commerce Solutions </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75">24/7 Customer support </a>
+              <a href="#" className="text-white transition hover:opacity-75">24/7 Customer support </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <p className="font-medium text-gray-900">Company</p>
+          <p className="font-medium text-white">Company</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+              <a href="#" className="text-white transition hover:opacity-75"> About </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Team </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Team </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact Us </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Contact Us </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <p className="font-medium text-gray-900">Helpful Links</p>
+          <p className="font-medium text-white">Helpful Links</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
+              <a href="#" className="text-white transition hover:opacity-75"> Contact </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
+              <a href="#" className="text-white transition hover:opacity-75"> FAQs </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+              <a href="#" className="text-white
+               transition hover:opacity-75"> Live Chat </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <p className="font-medium text-gray-900">Legal</p>
+          <p className="font-medium text-white
+          ">Legal</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+              <a href="#" className="text-white
+               transition hover:opacity-75"> Accessibility </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Terms & Conditions </a>
+              <a href="#" className="text-white
+               transition hover:opacity-75"> Terms & Conditions </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
+              <a href="#" className="text-white
+               transition hover:opacity-75"> Hiring Statistics </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <p className="text-xs text-gray-500">&copy; 2023. Bucksbox. All rights reserved.</p>
+    <p className="text-xs text-white">&copy; 2023. Bucksbox. All rights reserved.</p>
   </div>
 </footer>
   )
