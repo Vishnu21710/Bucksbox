@@ -12,7 +12,7 @@ type Props = {}
 
 const Carousel = (props: Props) => {
   return (
-    <section className='carousel my-20'>
+    <section className='carousel '>
             <ReactCarousel showThumbs={false} infiniteLoop className='h-full'>
                     <Slide1/>
                     {/* <Slide2/> */}

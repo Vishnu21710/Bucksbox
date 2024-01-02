@@ -1,53 +1,54 @@
 import React from 'react'
-import { CheckBadgeIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CheckBadgeIcon, LockClosedIcon, ServerIcon, UserCircleIcon, BoltIcon, BanknotesIcon, DocumentCheckIcon } from '@heroicons/react/20/solid'
+import GridList from '@/app/components/GridList'
+import ButtonGroup from '@/app/components/ButtonGroup'
 
 type Props = {}
 
-const features = [
-    {
-      name: 'Real Time PAN Verification',
-      description:
-        'Elevate security with Real-Time PAN Verification. Confirm identities instantly for a seamless user experience.',
-      icon: CheckBadgeIcon,
-    },
-    {
-      name: 'Real Time Aadhar Verification',
-      description: 'Boost security with Real-Time Aadhar Verification. Instantly confirm identities for a seamless user experience.',
-      icon: CheckBadgeIcon,
-    },
-    {
-      name: 'Real Time Bank Verification',
-      description: 'Enhance security with Real-Time Bank Verification. Swiftly confirm accounts for a seamless user experience.',
-      icon: CheckBadgeIcon,
-    },
-    {
-      name: "SwiftSignup: Fast and Easy Registration Made Simple",
-      icon: CheckBadgeIcon
-    }
-  ]
+
+const data = [
+  {
+    desc: 'Real Time PAN Verification',
+    title: 'PAN',
+    color: 'bg-purple-300',
+    icon: <DocumentCheckIcon className='text-black w-5 h-5'/>
+  },
+  {
+    desc: 'Real Time Aadhar Verification',
+    title: 'Aadhar',
+    color: 'bg-green-300',
+    icon: <DocumentCheckIcon className='text-black w-5 h-5'/>
+  },
+  {
+    title: 'Bank Verification',
+    desc: 'Realtime Bank Verification ',
+    color: 'bg-yellow-300',
+    icon: <BanknotesIcon className='text-black w-5 h-5'/>
+  },
+  {
+    desc: 'Easy Registration',
+    title: 'Swift-Signup',
+    color: 'bg-red-300',
+    icon: <BoltIcon className='text-black w-5 h-5'/>
+  },
+
+]
+
 
 const Registration = (props: Props) => {
   return (
-    <div className="overflow-hidden bg-purple-50 my-10 py-10 ">
+    <div className="overflow-hidden bg-purple-50  py-10 ">
       <div className="mx-auto  lg:px-8">
         <div className="mx-auto grid  grid-cols-1 place-items-center  gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0  lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4 ">
             <div className="w-full ">
-              <h2 className="text-base font-semibold leading-7 text-green-600 max-sm:text-center">Merchant onboarding</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 xl:text-6xl lg:text-4xl max-sm:text-center">Registration Redefined: <span className='text-purple-600'>Easy, Quick</span>, and User-Centric</p>
+              <h2 className="text-base font-semibold leading-7 text-green-600 ">Merchant onboarding</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 xl:text-6xl lg:text-4xl ">Registration Redefined: <span className='text-purple-600'>Easy, Quick</span>, and User-Centric</p>
+             <GridList data={data}/>
              
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative pl-9 xl:text-lg text-md">
-                    <dt className="inline  text-gray-900">
-                      <feature.icon className="absolute  left-1 top-1 h-7 w-7 text-green-600" aria-hidden="true" />
-                      {feature.name}
-                    </dt>{' '}
-                    
-                  </div>
-                ))}
-              </dl>
+              
             </div>
+            <ButtonGroup/>
           </div>
           <img
             src="reg.png"

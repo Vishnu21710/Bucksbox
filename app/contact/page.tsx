@@ -14,7 +14,7 @@
   }
   ```
 */
-import {  PhoneIcon, EnvelopeIcon } from "@heroicons/react/16/solid"
+import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/16/solid"
 
 export default function page() {
   return (
@@ -25,7 +25,7 @@ export default function page() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="relative overflow-hidden py-10 px-6 bg-indigo-700 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden py-10 px-6 bg-green-700 sm:px-10 xl:p-12">
               <div className="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
                 <svg
                   className="absolute inset-0 w-full h-full"
@@ -124,8 +124,7 @@ export default function page() {
               </div>
               <h3 className="text-lg font-medium text-white">Contact information</h3>
               <p className="mt-6 text-base text-indigo-50 max-w-3xl">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor
-                lacus arcu.
+                Contact us for swift resolution of your queries and experience optimal assistance in no time.
               </p>
               <dl className="mt-8 space-y-6">
                 <dt>

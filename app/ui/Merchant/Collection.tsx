@@ -1,6 +1,9 @@
+import ButtonGroup from '@/app/components/ButtonGroup'
+import GridList from '@/app/components/GridList'
 import React from 'react'
 
 type Props = {}
+
 
 const Collection = (props: Props) => {
   return (
@@ -615,12 +618,13 @@ const Collection = (props: Props) => {
               <h2 className="mb-5 text-3xl font-bold text-dark  lg:text-6xl">
                 Your Key to <span className='text-purple-600'>Effortless</span> Payment Collection
               </h2>
+              {/* <GridList data={data}/> */}
               <div className='flex flex-col gap-5 '>
                 <div className='flex justify-start gap-7 px-5 py-3 bg-white rounded-full collect-card'>
                   <img src="upi100.png" className='rounded-full p-2 w-[50px] h-[50px] bg-purple-200 ' alt="" />
                   <div className='flex flex-col gap-2'>
                     <h3 className='font-semibold text-gray-800'>UPI Collect</h3>
-                    <p className=' md:text-md text-sm'>Utilize UPI Collect for instant transfers</p>
+                    <p className=' md:text-md text-sm'>UPI Collect for instant transfers</p>
                   </div>
                 </div>
                 <div className='flex justify-start gap-7 px-5 py-3 bg-white rounded-full collect-card'>
@@ -637,6 +641,7 @@ const Collection = (props: Props) => {
                     <p className=' md:text-md text-sm'>Dynamic and static QR codes</p>
                   </div>
                 </div>
+                <ButtonGroup/>
                
               </div>
 

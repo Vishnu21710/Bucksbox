@@ -1,3 +1,4 @@
+import GridList from '@/app/components/GridList'
 import React from 'react'
 
 type Props = {}
@@ -20,6 +21,8 @@ const MSolution = (props: Props) => {
                     <p className="mb-10 text-base font-medium leading-7 text-dark-grey-600 xl:w-3/4">
                     Elevate your business with our powerful app – featuring diverse payment options, robust analytics, and a transaction tracker. Streamline operations, gain insights, and grow effortlessly with our comprehensive solution.
                     </p>
+
+                  
                     <div className="flex justify-center lg:justify-start items-center gap-5 mb-3">
                         <button className="flex items-center rounded-xl bg-purple-500 px-5 py-4 lg:text-md text-sm font-medium text-green-300 transition hover:bg-purple-blue-600 ">
                             Download
