@@ -76,19 +76,19 @@ export default function Navbar() {
                   >
                     Home
                   </Link>
-                  <a
+                  <Link 
                     className="font-medium text-white py-3 md:py-6  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
+                    href="/payment-gateway"
                     aria-current="page"
                   >
-                    Digital Commerce
-                  </a>
-                  <a
+                    Payment Gateway
+                  </Link>
+                  <Link
                     className="font-medium text-white py-3 md:py-6  dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="#"
+                    href="/ecommerce"
                   >
-                    Company
-                  </a>
+                    Digital Commerce
+                  </Link>
                   {/* <div className="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
                     <button
                       type="button"

@@ -17,10 +17,12 @@ import Payments from './ui/Payments/Payments'
 export default function Home() {
   return (
     <main className="">
+      <div className='lg:w-[70%] md:w-[80%] w-[95%] mx-auto'>
       <MSolution />
+      </div>
       
       <Carousel />
-      <section className='lg:w-5/6 w-[95%] mx-auto container flex items-center gap-28 flex-col'>
+      <section className='lg:w-[70%] md:w-[80%] w-[95%] mx-auto flex flex-col gap-32'>
       <Brand/>
         <Payments />
         {/* <Bills/> */}

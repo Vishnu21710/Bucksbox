@@ -148,12 +148,12 @@ const Solution = (props: Props) => {
                 role="tabpanel"
                 aria-labelledby="tabs-with-card-item-1"
               >
-                {/* <img
-                  className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
-                  src="buck1.png"
+                <img
+                  className="  "
+                  src="MicroATM.gif"
                   alt="Image Description"
-                /> */}
-                <Lottie animationData={account} autoPlay loop className='lg:h-[600px]'/>
+                />
+                {/* <Lottie animationData={account} autoPlay loop className='lg:h-[600px]'/> */}
               </div>
               <div
                 id="tabs-with-card-2"

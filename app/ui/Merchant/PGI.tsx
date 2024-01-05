@@ -37,7 +37,7 @@ import { PhoneArrowDownLeftIcon, BanknotesIcon, CurrencyRupeeIcon, CommandLineIc
   
   export default function Example() {
     return (
-      <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+      <div className="relative  py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-full lg:px-8">
           <h2 className="text-base font-semibold uppercase tracking-wider text-indigo-600">Register Now</h2>
           <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 lg:text-5xl md:text-4xl">

@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PhoneArrowDownLeftIcon, ChartBarIcon, EyeIcon, ChartPieIcon } from "@heroicons/react/20/solid"
-
+import Link from "next/link"
 const supportLinks = [
   {
     name: "Bird's Eye View",
@@ -29,7 +29,7 @@ const supportLinks = [
 
 export default function Transaction() {
   return (
-    <div className="bg-white rounded-lg w-full">
+    <div className=" rounded-lg w-full">
       {/* Header */}
       <div className="relative pb-32 bg-gray-800 w-full ">
         <div className="absolute inset-0">
@@ -67,9 +67,9 @@ export default function Transaction() {
                 <p className="mt-4 text-base text-gray-700">{link.description}</p>
               </div>
               <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-                <a href={link.href} className="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                <Link href={'/contact'} className="text-base font-medium text-indigo-700 hover:text-indigo-600">
                   Contact us<span aria-hidden="true"> &rarr;</span>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

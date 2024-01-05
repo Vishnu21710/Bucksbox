@@ -615,7 +615,7 @@ const Collection = (props: Props) => {
               <span className="block mb-4 text-lg font-semibold text-primary text-green-500">
                 Bucksbox Merchant
               </span>
-              <h2 className="mb-5 text-3xl font-bold text-dark  lg:text-6xl">
+              <h2 className="mb-5 text-3xl font-bold text-dark  lg:text-5xl">
                 Your Key to <span className='text-purple-600'>Effortless</span> Payment Collection
               </h2>
               {/* <GridList data={data}/> */}
