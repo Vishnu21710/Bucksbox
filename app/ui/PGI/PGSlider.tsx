@@ -32,9 +32,9 @@ const PGSlider = (props: Props) => {
   return (
     <div>
         <PGIntro title='One Platform Connected To Multiple Payment Gateways.' description='Enjoy a seamless experience with support for hundreds of payment methods, making transactions convenient and secure.'/>
-        <div className="navigation-wrapper h-auto w-auto bg-green-50 mt-20 rounded-xl">
+        <div className="navigation-wrapper h-auto  w-auto bg-green-50 mt-20 rounded-xl">
         <div ref={sliderRef} className="keen-slider">
-          <Slide title='Bucksbox Payment Gateway - UPI' sub_title='UPI' image='PGupi.jpg' description='Revolutionizing Mobile Payments: Bucksbox - Worldline introduces a mobile-first mode for seamless push and pull transfers. Utilize VPA and UPI PIN, with options like UPI Collect, UPI Intent, and UPI QR for versatile transactions.'/>
+          <Slide title='Bucksbox Payment Gateway - UPI' sub_title='UPI' image='pgUgateway.jpg' description='Revolutionizing Mobile Payments: Bucksbox - Worldline introduces a mobile-first mode for seamless push and pull transfers. Utilize VPA and UPI PIN, with options like UPI Collect, UPI Intent, and UPI QR for versatile transactions.'/>
           <Slide title='Bucksbox Payment Gateway - All major debit and credit cards' sub_title='Credit Card' image='PGCred.jpg' description='Accept payments from all major domestic and
 international credit and debit card networks like Visa,
 Mastercard, American Express and RuPay'/>

@@ -7,7 +7,7 @@ const Settings = (props: Props) => {
     <>
   {/* Features */}
   
-  <div className="lg:max-w-[85rem] px-4 py-5 sm:px-6 lg:px-8 lg:py-2 mx-auto ">
+  <div className="lg:max-w-[85rem] px-4 py-5 sm:px-6 lg:px-8 lg:py-2 mx-auto mt-20 ">
   <div className='text-center w-full mb-5'>
     <h1 className='text-5xl font-bold text-purple-600'>Seamless Store Management</h1>
     <p className='max-w-xl mx-auto mt-4 text-lg text-gray-700'>Effortlessly oversee operations, enhance customer experiences in one hub. Elevate your store management for unparalleled efficiency.</p>

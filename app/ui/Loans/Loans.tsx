@@ -9,20 +9,20 @@ type Props = {}
 const Loans = (props: Props) => {
 
   function handlePrev(){
-    console.log(instanceRef);
+    
     
     instanceRef.current?.prev()
   }
 
   function handleNext(){
-    console.log(instanceRef);
+    
     
     instanceRef.current?.next()
   }
 
   const [sliderRef, instanceRef] = useKeenSlider({
     slideChanged() {
-      console.log('slide changed')
+      
     },
     loop: true,
       slides: {

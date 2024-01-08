@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 type Props = {}
@@ -8,21 +9,12 @@ const Feature = (props: Props) => {
   {/* Features */}
   <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div className="w-full ">
-    <figure className="ms-auto me-20 relative z-[1] w-full h-auto rounded-b-lg shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)]">
-              <div className="relative flex items-center  bg-gray-800 rounded-t-lg py-2 px-24 dark:bg-gray-700">
-                <div className="flex space-x-1 absolute top-2/4 start-4 -translate-y-1">
-                  <span className="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600" />
-                  <span className="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600" />
-                  <span className="w-2 h-2 bg-gray-600 rounded-full dark:bg-gray-600" />
-                </div>
-                <div className="flex justify-center items-center w-full h-full bg-gray-700 text-[.25rem] text-gray-400 rounded-sm sm:text-[.5rem] dark:bg-gray-600 dark:text-gray-400">
-                  www.bucksbox-admin.com
-                </div>
-              </div>
-              <div className="bg-gray-800 rounded-b-lg">
+    <figure className="ms-auto me-20 relative z-[1] w-full h-auto rounded-b-lg ">
+              
+              <div className=" rounded-b-lg">
                 <img
-                  className="max-w-full h-auto max-sm:h-[250px] rounded-b-lg"
-                  src="cat.png"
+                  className="max-w-full mx-auto h-auto max-sm:h-[250px] rounded-b-lg"
+                  src="Ecat.png"
                   alt="Image Description"
                 />
               </div>
@@ -37,6 +29,14 @@ const Feature = (props: Props) => {
         <p className="mt-2 md:mt-4 text-gray-500">
         Simplify your inventory management by categorizing your products seamlessly. Enhance organization, streamline navigation, and make shopping a breeze for your customers.
         </p>
+        <Link
+                className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
+                href="/contact">
+                Enquiry
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+            </Link>
       </div>
       {/* End Col */}
       <div className="lg:col-span-2">

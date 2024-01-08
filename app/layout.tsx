@@ -5,6 +5,8 @@ import Navbar from './ui/Navbar/Navbar'
 import { poppins } from './ui/fonts'
 import PrelineScript from "./components/PrelineScript";
 import Footer from './ui/Footer/Footer'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,11 +24,13 @@ export default function RootLayout({
     <html lang="en" >
       
       <body className={`${poppins.className} bg-purple-50`} >
+      <ToastContainer />
         <Navbar />
           {children}
         <Footer/>
       </body>
       <PrelineScript />
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26707346.js"></script>
     </html>
     
   )
